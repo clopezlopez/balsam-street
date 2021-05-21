@@ -1,0 +1,26 @@
+@import "Bootcustom";
+@import './styles/navbar';
+@import './styles/showcase';
+
+
+body {
+  margin-top: 105px;
+}
+
+
+#about {
+  h1 {
+    @media screen and (max-width: 1000px) {
+      text-align: center;
+    }
+  }
+
+  img {
+    padding: 0 1rem;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+
+}

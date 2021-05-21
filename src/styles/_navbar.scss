@@ -1,0 +1,24 @@
+.navbar {
+  box-shadow: 3px 3px 6px $primary;
+  // opacity: 0.9;
+  background: #fff;
+
+  .nav-item {
+    cursor: pointer;
+    font-size: 1.4rem;
+    padding-right: 1.4rem;
+
+    @media screen and (max-width: 1000px) {
+      text-align: center;
+      padding: 0 1rem;
+    }
+  }
+
+  img {
+    transform: translateX(20px);
+    width: 70px;
+    height: 50px;
+  }
+
+}
+

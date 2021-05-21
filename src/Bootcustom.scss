@@ -1,0 +1,14 @@
+/* make the customizations */
+
+$primary: rgba(0, 72, 166, 0.8);
+$primary-overlay: rgba(0, 30, 166, 0.5);
+
+.active {
+  display: inline-block;
+  color: #fff !important;
+  background-color: $primary;
+  border-radius: 5px;
+}
+
+/* import bootstrap to set changes */
+@import "~bootstrap/scss/bootstrap";
