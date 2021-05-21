@@ -4,7 +4,7 @@ import church from '../img/church.jpg'
 
 function About () {
   return (
-    <section id="about" className="my-5 py-3">
+    <section id="about" className="my-5 py-5">
       <div className="container">
         <div className="row">
           <div className="col-md-6">

@@ -26,7 +26,7 @@ function NavBar () {
               className="nav-link"
               spy={true}
               smooth={true}
-              offset={-110}>Home</Link>
+              offset={-140}>Home</Link>
             </li>
             <li className="nav-item">
               <Link href="#about"
